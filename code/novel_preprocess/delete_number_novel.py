@@ -54,8 +54,8 @@ def remove_quotes_from_docx(input_path, output_path):
     doc.save(output_path)
 
 # 使用示例
-doc_path = r'E:\practice_group\generate_novel\material\novel\我跟了陆霆五年.docx'
-output_path = r'E:\practice_group\generate_novel\material\novel\我跟了陆霆五年.docx'
+doc_path = r'E:\practice_group\generate_novel\material\novel\喂.docx'
+output_path = r'E:\practice_group\generate_novel\material\novel\喂.docx'
 remove_numbers_from_word(doc_path, output_path)
 remove_extra_blank_lines(output_path, output_path)
 remove_quotes_from_docx(output_path,output_path)
