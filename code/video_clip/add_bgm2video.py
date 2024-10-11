@@ -32,8 +32,8 @@ def overlay_audio_loop(video_clip, audio_clip):
     return video_clip
 
 
-video = VideoFileClip(r"E:\practice_group\generate_novel\work\竖屏\7月5日\7月5日.mp4")
-BGM_audio = AudioFileClip(r"E:\practice_group\generate_novel\material\audio\BGM\you-15.MP3")
-adjusted_BGM_audio = adjusted_audio_volume_db(BGM_audio,-18)
+video = VideoFileClip(r"E:\practice_group\generate_novel\work\竖屏\10月10日\10月10日.mp4")
+BGM_audio = AudioFileClip(r"E:\practice_group\generate_novel\material\audio\BGM\蝴蝶少女_纯.MP3")
+adjusted_BGM_audio = adjusted_audio_volume_db(BGM_audio,-22)
 final_video = overlay_audio_loop(video,adjusted_BGM_audio)
-final_video.write_videofile(r"E:\practice_group\generate_novel\work\竖屏\7月5日\7月5日_bgm.mp4",codec="libx264",threads=14)
+final_video.write_videofile(r"E:\practice_group\generate_novel\work\竖屏\10月10日\10月10日_bgm.mp4",codec="libx264",threads=20)
