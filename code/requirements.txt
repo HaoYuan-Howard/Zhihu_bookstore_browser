@@ -1,0 +1,5 @@
+pip install python-docx
+pip install pillow
+pip install fonttools
+pip install ddddocr
+pip install flask
